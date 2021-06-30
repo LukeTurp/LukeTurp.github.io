@@ -1,2 +1,2 @@
 # LukeTurp.github.io
-Public site for github pages
+Test app for TEConnect development
