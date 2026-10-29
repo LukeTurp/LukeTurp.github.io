@@ -1,0 +1,24 @@
+{
+  "name": "luketurp-github-io",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:pilot": "vite build --mode pilot"
+  },
+  "dependencies": {
+    "@magensa/te-connect": "file:vendor/magensa-te-connect-1.5.1.tgz",
+    "@magensa/te-connect-react": "file:vendor/magensa-te-connect-react-1.5.0.tgz",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "uuid": "^14.0.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^8.2.3",
+    "@vitejs/plugin-react": "^6.1.2",
+    "vite": "^8.3.5"
+  }
+}
